@@ -14,5 +14,11 @@ If you're really stuck, unlock solutions in the Solutions tab.
  */
 public class MainClass 
 {
-	
+	public static void main(String[] args)
+	{
+		int minutes = 6;
+		minutes2Seconds mn = new minutes2Seconds(minutes);
+		
+		System.out.println(minutes + " converted to seconds is " + mn.convertMins2Secs());
+	}
 }
